@@ -20,8 +20,12 @@ $ pip install -r requirements.txt
 $ python run.py
 ```
 
-## Reference
+## References
 
+[Login credentials not working with Gmail SMTP](https://stackoverflow.com/questions/16512592/login-credentials-not-working-with-gmail-smtp)
 
-License
+[Less secure apps & your Google Account](https://support.google.com/accounts/answer/6010255)
+
+## License
+
 This program is licensed under the "MIT License". Please see the file [LICENSE]() in the source distribution of this software for license terms.
