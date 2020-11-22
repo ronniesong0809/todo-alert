@@ -9,15 +9,26 @@ Copyright (c) 2020 Ronnie Song
 This is a toy-level python script running outside of our [SRE ToDo App](http://35.197.22.173/home/). It could detect that the site is not reachable and then send an email to our team. 
 
 ## Setup and Run
+Set Environment Variables, Replace TODO entries with your Gmail address and password.
+```
+$ export GMAIL_ADDRESS=TODO
+$ export GMAIL_PASSWORD=TODO
+```
 
+Git clone, and install dependencies.
 ```
 $ git clone https://github.com/ronniesong0809/todo-alert.git
 $ cd todo-alert
 $ pip install -r requirements.txt
 ```
 
+Run
 ```
 $ python run.py
+```
+or run in the background
+```
+$ nohup run.py &
 ```
 
 ## References
